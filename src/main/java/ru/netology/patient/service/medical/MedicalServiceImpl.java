@@ -1,11 +1,11 @@
 package ru.netology.patient.service.medical;
 
-import java.math.BigDecimal;
-
 import ru.netology.patient.entity.BloodPressure;
 import ru.netology.patient.entity.PatientInfo;
 import ru.netology.patient.repository.PatientInfoRepository;
 import ru.netology.patient.service.alert.SendAlertService;
+
+import java.math.BigDecimal;
 
 public class MedicalServiceImpl implements MedicalService {
 
